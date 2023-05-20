@@ -20,6 +20,17 @@ document.querySelector(".close_menu").parentElement.addEventListener("click", ()
     document.querySelector(".menu").classList.remove('show');
 });
 
+document.querySelector('.menu_list').addEventListener("click", (event) => {
+    if (event.target.closest('.menu_link')) {
+        document.querySelector(".menu").classList.remove('show');
+    }
+});
+
+
+
+
+
+
 
 // slider
 
