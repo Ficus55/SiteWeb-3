@@ -99,7 +99,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 img {
@@ -230,6 +230,7 @@ img {
 
 
 .menu_link {
+    display: inline-block;
     color: #000;
     font-weight: 600;
     padding: 0 20px;
@@ -1000,7 +1001,7 @@ img {
     text-align: center;
     background: #fa8f47;
     position: fixed;
-    z-index: 99;
+    z-index: 999;
     bottom: 65px;
     right: 25px;
     cursor: pointer;
@@ -1009,13 +1010,11 @@ img {
     overflow: hidden;
 }
 
-.backtotop span {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    border: solid #fff;
-    border-width: 3px 0 0 3px;
-    transform: rotate(45deg) translate(1px, 1px);
+.backtotop .fa-angle-up {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    z-index: -1;
 }
 
 .backtotop::before {

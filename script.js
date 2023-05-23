@@ -28,6 +28,35 @@ document.querySelector('.menu_list').addEventListener("click", (event) => {
 
 
 
+//smooth scroll
+let menuLinks = document.querySelectorAll(".menu_link, .backtotop");
+if (menuLinks.length > 0) {
+    menuLinks.forEach((event) => {
+        event.addEventListener("click", (elem) => {
+            let link = elem.target.getAttribute('href');
+            if (link === '#home') {
+                elem.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            } else if (link !== '' && link !== '#home' && document.querySelector(link)) {
+                elem.preventDefault();
+                let scrollToObject = Math.floor(document.querySelector(link).getBoundingClientRect().top);
+                scrollToObject = scrollToObject + window.pageYOffset - document.querySelector(".header").offsetHeight;
+                window.scrollTo({
+                    top: scrollToObject,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+}
+
+
+
 
 
 
@@ -96,6 +125,27 @@ newsletterForm.addEventListener("submit", function (event) {
         event.preventDefault();
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
