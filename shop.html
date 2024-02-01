@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/glidejs/glide.core.min.css">
+    <link rel="stylesheet" href="libs/glidejs/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.jpg">
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="menu">
+                <div class="menu_logo_body">
+                    <a href="index.html" class="logo_link">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="menu_list">
+                    <li>
+                        <div class="close_menu">
+                            <span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html" class="menu_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="menu_link">Shop</a>
+                    </li>
+                    <li>
+                        <a href="categories.html" class="menu_link">Categories</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="menu_link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="menu_link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main-content">
+
+            <div class="banner-wrapper">
+                <img src="img/banner-for-all2.jpg" alt="">
+                <div class="banner-wrapper-inner">
+                    <h1 class="page-title">Shop</h1>
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="index.html" class="trail-item trail-start">Home</a>
+                            </li>
+                            <li>
+                                <span class="trail-item trail-end">Shop</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop">
+                <div class="container">
+                    <div class="shop-grid">
+                        <div class="shop-control shop-before-control">
+                            <div class="grid-view-mode">
+                                <a href="#" class="grid-view-mode-icon-grid">
+                                    <div class="button-inner">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grid"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                            class="svg-inline--fa fa-grid fa-lg">
+                                            <path fill="currentColor"
+                                                d="M0 72C0 49.9 17.9 32 40 32H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V72zM0 232c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V232zM128 392v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V72zM288 232v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392zM448 72v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V232zM448 392v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40z"
+                                                class=""></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid-view-mode-icon-list">
+                                    <div class="button-inner">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-ul"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                            class="svg-inline--fa fa-list-ul fa-lg">
+                                            <path fill="currentColor"
+                                                d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM64 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+                                                class=""></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sort-by">
+                                <label for="SortBy" class="hidden-label"></label>
+                                <select name="SortBy" class="shop-sort-by">
+                                    <option value="default-sorting" selected="selected">Default sorting</option>
+                                    <option value="popularity">Sort by popularity</option>
+                                    <option value="rating">Sort by average rating</option>
+                                    <option value="date">Sort by latest</option>
+                                    <option value="price-high">Sort by price: low to high</option>
+                                    <option value="price-low">Sort by price: high to low</option>
+                                </select>
+                            </div>
+                            <div class="sort-by-count">
+                                <label for="ItemsPerPage" class="hidden-label"></label>
+                                <select name="ItemsPerPage" class="items-per-page">
+                                    <option value="default-sorting" selected="selected">Show 12</option>
+                                    <option value="12">Show 12</option>
+                                    <option value="5">Show 05</option>
+                                    <option value="10">Show 10</option>
+                                    <option value="12">Show 12</option>
+                                    <option value="15">Show 15</option>
+                                    <option value="20">Show all</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="shop-products">
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro161-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="color-variations">
+                                        <a href="#" class="color-value" style="background:#3155e2;"></a>
+                                        <a href="#" class="color-value" style="background:#49aa51;"></a>
+                                        <a href="#" class="color-value" style="background:#ff63cb;"></a>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Black bags</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $45.00
+                                        </span>
+                                        <span> - </span>
+                                        <span class="price-amount">
+                                            $54.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro1211-2-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onsale">-14%</span>
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Classic Shirt</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:100%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <del>
+                                            <span>
+                                                $138.00
+                                            </span>
+                                        </del>
+                                        <ins>
+                                            <span class="price-amount">
+                                                $54.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro101-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Long Oversized</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $60.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro171-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="color-variations">
+                                        <a href="#" class="color-value" style="background:#ff63cb;"></a>
+                                        <a href="#" class="color-value" style="background:#a825ea;"></a>
+                                        <a href="#" class="color-value" style="background:#db2b00;"></a>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Knitted Stripe</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $105.00
+                                        </span>
+                                        <span> - </span>
+                                        <span class="price-amount">
+                                            $110.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro41-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Brown Shirt</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $134.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro181-2-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Floral Stripe</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $98.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro83-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="color-variations">
+                                        <a href="#" class="color-value" style="background:#000000;"></a>
+                                        <a href="#" class="color-value" style="background:#db2b00;"></a>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Leopard Print</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $56.00
+                                        </span>
+                                        <span> - </span>
+                                        <span class="price-amount">
+                                            $60.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro141-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Mini Dress</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:100%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $207.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro61-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Maternity Shoulder</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $79.00
+                                        </span>
+                                        <span> - </span>
+                                        <span class="price-amount">
+                                            $139.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro71-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onsale">-18%</span>
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Women Bags</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <del>
+                                            <span>
+                                                $109.00
+                                            </span>
+                                        </del>
+                                        <ins>
+                                            <span class="price-amount">
+                                                $89.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro191-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                        <span class="sold-out">sold out</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Dagger Oversized</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $35.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="shop-product">
+                                <div class="product-thumb">
+                                    <a href="#" class="thumb-link">
+                                        <img src="img/apro13-1-600x778.jpg" alt="">
+                                    </a>
+                                    <div class="status">
+                                        <span class="onnew">New</span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-wishlist">
+                                            <a href="#" class="add-to-wishlist-button group-button-icon"></a>
+                                        </div>
+                                        <div class="compare">
+                                            <a href="#" class="compare-button group-button-icon"></a>
+                                        </div>
+                                        <div class="quik-view">
+                                            <a href="#" class="quick-view-button group-button-icon"></a>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <a href="#" class="add-too-cart-button group-button-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">Black Shirt</a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star-rating">
+                                            <span style="width:0%;"></span>
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        <span class="price-amount">
+                                            $109.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="shop-control shop-after-control">
+                            <nav class="navigation-pagination">
+                                <div class="nav-links">
+                                    <span class="page-numbers current">1</span>
+                                    <a href="#" class="page-numbers">2</a>
+                                    <a href="#" class="next page-numbers"></a>
+                                </div>
+                            </nav>
+                            <p class="result-count">Showing 1–12 of 20 results</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer id="footer">
+            <div id="newsletter">
+                <div class="container">
+                    <div class="newsletter-body">
+                        <h3 class="title">Newsletter</h3>
+                        <h4 class="subtitle">Get Discount 30% Off</h4>
+                        <p class="descr">Suspendisse netus proin eleifend fusce sollicitudin potenti vel magnis nascetur
+                        </p>
+                        <div class="newsletter-form">
+                            <form name="newsletter_form" action="#" method="post">
+                                <input name="email" class="email-newsletter" type="e-mail" required
+                                    placeholder="Enter your email ...">
+                                <button class="submit submit-active" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-body">
+                    <div class="footer-item copyright">
+                        <p>© Copyright <span></span> <a href="#">Akasha.</a> All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-item">
+                        <ul class="socials-list">
+                            <li>
+                                <a href="#" class="icon-animation">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-animation">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-animation">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-animation">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#home" class="backtotop">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="libs/glidejs/glide.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
